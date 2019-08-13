@@ -1,6 +1,8 @@
 import sys
 from io import StringIO
 import unittest
+
+
 def resolve():
     N, L = map(int, input().split(' '))
 
@@ -11,10 +13,12 @@ def resolve():
 
     S.sort()
 
-    [ print(S , end='') for S in S]
+    [print(S, end='') for S in S]
+
 
 if __name__ == '__main__':
     resolve()
+
 
 class TestClass(unittest.TestCase):
     def assertIO(self, input, output):
@@ -26,7 +30,7 @@ class TestClass(unittest.TestCase):
         sys.stdout, sys.stdin = stdout, stdin
         self.assertEqual(out, output)
 
-    def test_入力例_1(self):
+    def test_case_1(self):
         input = """3 3
 dxx
 axx

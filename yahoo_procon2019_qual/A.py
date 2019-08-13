@@ -8,4 +8,3 @@ def main(N, K):
 if __name__ == '__main__':
     N, K = map(int, input().split(' '))
     print(main(N, K))
-

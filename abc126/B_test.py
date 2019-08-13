@@ -3,7 +3,7 @@
 import unittest
 from io import StringIO
 import sys
-from B import resolve
+from abc126.B import resolve
 
 
 class TestClass(unittest.TestCase):

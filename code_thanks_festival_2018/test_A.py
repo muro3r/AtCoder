@@ -1,4 +1,4 @@
-import A
+from code_thanks_festival_2018 import A
 
 
 def test_case_1():
@@ -20,4 +20,3 @@ def test_case_3():
     result = A.main(100, 100, 1000, 100, 1000)
 
     assert expect == result
-

@@ -15,4 +15,3 @@ def test_case3():
 
 def test_case4():
     assert 'NO' == A.main(10, 90)
-

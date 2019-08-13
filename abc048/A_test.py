@@ -1,7 +1,8 @@
 import sys
 from io import StringIO
 import unittest
-from B import resolve
+from abc048.A import resolve
+
 
 class TestClass(unittest.TestCase):
     def assertIO(self, input, output):
@@ -12,18 +13,22 @@ class TestClass(unittest.TestCase):
         out = sys.stdout.read()[:-1]
         sys.stdout, sys.stdin = stdout, stdin
         self.assertEqual(out, output)
+
     def test_入力例_1(self):
         input = """AtCoder Beginner Contest"""
         output = """ABC"""
         self.assertIO(input, output)
+
     def test_入力例_2(self):
         input = """AtCoder Snuke Contest"""
         output = """ASC"""
         self.assertIO(input, output)
+
     def test_入力例_3(self):
         input = """AtCoder X Contest"""
         output = """AXC"""
         self.assertIO(input, output)
+
 
 if __name__ == "__main__":
     unittest.main()
