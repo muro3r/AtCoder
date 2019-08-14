@@ -1,23 +1,33 @@
+import string
+
+
 def main(S):
-    if not S[0] == 'A':
-        return 'WA'
-    if not S[2] == 'C':
+    if not S[0] == 'A' or S[1] == 'C':
         return 'WA'
     if S.endswith('C'):
         return 'WA'
 
-    count_c = 0
-    count_c += S.count('C')
-    count_c += S.count('c')
+    count_upper = 0
+    for upper in string.ascii_uppercase:
+        count_upper += S.count(upper)
 
-    if not count_c == 1:
+    if count_upper != 2:
         return 'WA'
 
-    for s in S[1:]:
+    count_C = 0
+
+    for s in S[2:]:
         if s == 'C':
-            continue
+            if count_C == 1:
+                return 'WA'
+            else:
+                count_C += 1
+                continue
         elif not s.islower():
             return 'WA'
+
+    if count_C == 0:
+        return 'WA'
 
     return 'AC'
 
@@ -25,4 +35,3 @@ def main(S):
 if __name__ == '__main__':
     S = input()
     print(main(S))
-

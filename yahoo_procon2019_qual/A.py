@@ -1,5 +1,5 @@
 def main(N, K):
-    if N - 1 >= K:
+    if K * 2 - 1 <= N:
         return 'YES'
     else:
         return 'NO'

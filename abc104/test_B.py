@@ -44,3 +44,15 @@ def test_case_5():
     result = B.main(S)
 
     assert expect == result
+
+
+def test_case_b07():
+    assert 'AC' == B.main('ApproaCh')
+
+
+def test_case_b09():
+    assert 'AC' == B.main('AccccCcccc')
+
+
+def test_case_b12():
+    assert 'WA' == B.main('ATCoder')
