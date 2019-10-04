@@ -7,11 +7,16 @@ https://atcoder.jp/contests/abc105/tasks/abc105_a
 0
 >>> main(1, 1)
 0
-'''
+
+>> main(78, 25)
+1'''
 
 
 def main(n, k):
-    print(n % k)
+    if n % k != 0:
+        print(1)
+    else:
+        print(0)
 
 
 if __name__ == "__main__":
