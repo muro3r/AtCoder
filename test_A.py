@@ -11,4 +11,3 @@ def test_case_2():
 
 def test_case_3():
     assert 1152 == main(549, 817, 715, 603)
-

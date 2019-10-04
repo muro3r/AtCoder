@@ -16,4 +16,3 @@ def main(n, i):
 if __name__ == '__main__':
     n, i = map(int, input().split(' '))
     main(n, i)
-

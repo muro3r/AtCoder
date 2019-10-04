@@ -11,7 +11,7 @@ C
 def main(b):
     if b == 'A':
         print('T')
-    elif b =='T':
+    elif b == 'T':
         print('A')
     elif b == 'G':
         print('C')
@@ -21,4 +21,3 @@ def main(b):
 
 if __name__ == '__main__':
     main(input())
-

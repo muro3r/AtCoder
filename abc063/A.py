@@ -5,4 +5,3 @@ if sum < 10:
     print(sum)
 else:
     print('error')
-

@@ -20,4 +20,3 @@ def main(a, s):
 if __name__ == '__main__':
     a, s = int(input()), input()
     main(a, s)
-

@@ -6,4 +6,3 @@ elif 6 <= A and A <= 12:
     print(B // 2)
 elif A <= 5:
     print(0)
-

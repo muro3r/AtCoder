@@ -14,4 +14,3 @@ def main(T, A, B, C, D):
 if __name__ == '__main__':
     T, A, B, C, D = map(int, input().split(' '))
     print(main(T, A, B, C, D))
-

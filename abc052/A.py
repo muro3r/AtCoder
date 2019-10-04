@@ -9,4 +9,3 @@ if sum_A > sum_B:
     print(sum_A)
 else:
     print(sum_B)
-

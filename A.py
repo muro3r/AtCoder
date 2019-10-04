@@ -19,4 +19,3 @@ if __name__ == '__main__':
     C = int(input())
     D = int(input())
     print(main(A, B, C, D))
-

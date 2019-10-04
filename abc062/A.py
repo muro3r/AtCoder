@@ -19,4 +19,5 @@ def resolve():
 
     print('No')
 
+
 resolve()

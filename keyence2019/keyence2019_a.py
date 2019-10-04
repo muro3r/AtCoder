@@ -24,4 +24,3 @@ def main(n):
 if __name__ == '__main__':
     n = map(int, input().split(' '))
     main(n)
-
