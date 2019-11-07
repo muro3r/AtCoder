@@ -6,8 +6,6 @@
 23:59:59
 '''
 
-from datetime import datetime, timedelta
-
 
 def main(n):
     s = n % 60
@@ -21,4 +19,3 @@ if __name__ == '__main__':
     n = int(input())
 
     main(n)
-

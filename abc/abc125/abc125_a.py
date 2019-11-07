@@ -10,7 +10,7 @@ https://atcoder.jp/contests/abc125/tasks/abc125_a
 
 
 def main(a: int, b: int, t: int):
-    print(t//a * b)
+    print(t // a * b)
 
 
 if __name__ == "__main__":

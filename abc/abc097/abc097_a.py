@@ -13,7 +13,7 @@ Yes
 
 
 def main(a, b, c, d):
-    if abs(a-c) <= d or abs(a-b) <= d and abs(b-c) <= d:
+    if abs(a - c) <= d or abs(a - b) <= d and abs(b - c) <= d:
         print('Yes')
     else:
         print('No')

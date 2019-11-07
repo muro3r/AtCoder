@@ -14,14 +14,14 @@ https://atcoder.jp/contests/abc142/tasks/abc142_c
 
 
 def main(n, a):
-    l = [0 for _ in range(n)]
+    ls = [0 for _ in range(n)]
 
     count = 1
     for i in a:
-        l[i - 1] = count
+        ls[i - 1] = count
         count += 1
 
-    print(' '.join(map(str, l)))
+    print(' '.join(map(str, ls)))
 
 
 if __name__ == '__main__':

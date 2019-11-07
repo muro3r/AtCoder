@@ -12,7 +12,7 @@ https://atcoder.jp/contests/abc143/tasks/abc143_a
 
 
 def main(a, b):
-    print(max(0, a - b*2))
+    print(max(0, a - b * 2))
 
 
 if __name__ == "__main__":

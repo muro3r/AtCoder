@@ -33,4 +33,3 @@ if __name__ == '__main__':
     s = input()
 
     main(n, l, s)
-

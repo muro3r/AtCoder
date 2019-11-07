@@ -29,4 +29,3 @@ if __name__ == '__main__':
     w = list(map(int, input().split(' ')))
 
     main(n, w)
-

@@ -12,9 +12,9 @@ https://atcoder.jp/contests/abc118/tasks/abc118_a
 
 def main(a: int, b: int):
     if (b % a) == 0:
-        print(a+b)
+        print(a + b)
     else:
-        print(b-a)
+        print(b - a)
 
 
 if __name__ == "__main__":

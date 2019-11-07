@@ -28,4 +28,3 @@ if __name__ == '__main__':
     a = list(map(int, input().split()))
 
     main(n, a)
-

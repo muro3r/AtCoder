@@ -30,4 +30,3 @@ if __name__ == '__main__':
         a.append(input())
 
     main(h, w, a)
-

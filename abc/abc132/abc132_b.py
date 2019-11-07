@@ -26,4 +26,3 @@ if __name__ == '__main__':
     p = list(map(int, input().split(' ')))
 
     main(n, p)
-

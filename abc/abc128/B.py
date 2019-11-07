@@ -12,7 +12,7 @@ for i in range(1, N + 1):
     list_.append([city, int(score), i])
 
 
-list_sortByScore = sorted(list_,          key=itemgetter(1), reverse=True)
+list_sortByScore = sorted(list_, key=itemgetter(1), reverse=True)
 list_sortByCity = sorted(list_sortByScore, key=itemgetter(0))
 
 

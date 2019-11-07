@@ -19,4 +19,3 @@ if __name__ == '__main__':
     j = map(int, input().split())
 
     main(d, j)
-

@@ -10,11 +10,11 @@ https://atcoder.jp/contests/abc096/tasks/abc096_b
 
 
 def main(a, b, c, k):
-    l = [a, b, c]
+    ls = [a, b, c]
     for _ in range(k):
-        l[l.index(max(l))] = max(l)*2
+        ls[ls.index(max(ls))] = max(ls) * 2
 
-    print(sum(l))
+    print(sum(ls))
 
 
 if __name__ == "__main__":

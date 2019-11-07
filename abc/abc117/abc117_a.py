@@ -10,7 +10,7 @@ https://atcoder.jp/contests/abc117/tasks/abc117_a
 
 
 def main(t, x):
-    print('{:.10f}'.format(t/x))
+    print('{:.10f}'.format(t / x))
 
 
 if __name__ == "__main__":

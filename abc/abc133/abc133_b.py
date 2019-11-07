@@ -32,4 +32,3 @@ if __name__ == '__main__':
     x = [list(map(int, input().split())) for _ in range(n)]
 
     main(n, d, x)
-

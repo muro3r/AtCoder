@@ -15,7 +15,7 @@ def main(A, B):
     i = 0
 
     while outlet < B:
-        outlet += A-1
+        outlet += A - 1
         i += 1
 
     print(i)

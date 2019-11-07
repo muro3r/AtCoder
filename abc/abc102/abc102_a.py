@@ -13,7 +13,7 @@ def main(n):
     if n % 2 == 0:
         print(n)
     else:
-        print(n*2)
+        print(n * 2)
 
 
 if __name__ == "__main__":

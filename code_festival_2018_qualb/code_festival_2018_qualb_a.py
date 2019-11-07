@@ -11,8 +11,6 @@ https://atcoder.jp/contests/code-festival-2018-qualb/tasks/code_festival_2018_qu
 
 
 def main(n):
-    count = 0
-
     print(100 - (100 // n))
 
 

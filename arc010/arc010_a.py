@@ -35,4 +35,3 @@ if __name__ == '__main__':
     c = [int(input()) for _ in range(m)]
 
     main(n, m, a, b, c)
-
