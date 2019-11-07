@@ -13,13 +13,12 @@ def main(a, b):
     if 0 < a and 0 < b:
         print('Positive')
         return
-    
+
     if a <= b < 0:
         print('Negative')
         return
     elif (a - b) % 3 == 0:
         print('Positive')
         return
-    
-    
+
     print('Zero')
