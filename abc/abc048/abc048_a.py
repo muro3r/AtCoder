@@ -10,11 +10,11 @@ AXC
 '''
 
 
-def resolve(A, S, C):
+def main(A, S, C):
     print('A', S[0], 'C', sep='')
 
 
 if __name__ == "__main__":
     A, S, C = input().split()
 
-    resolve(A, S, C)
+    main(A, S, C)

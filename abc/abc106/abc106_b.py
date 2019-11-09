@@ -1,9 +1,9 @@
 '''B - 105
 https://atcoder.jp/contests/abc106/tasks/abc106_b
 
->>> main(105)
+main(105)
 1
->>> main(7)
+main(7)
 0
 
 '''
