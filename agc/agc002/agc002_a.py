@@ -1,4 +1,4 @@
-'''
+"""
 >>> main(1, 3)
 Positive
 >>> main(-3, -1)
@@ -6,7 +6,7 @@ Negative
 >>> main(-1, 1)
 Zero
 
-'''
+"""
 
 
 def main(a, b):
