@@ -1,4 +1,4 @@
-'''A - 積雪深差
+"""A - 積雪深差
 https://atcoder.jp/contests/abc001/tasks/abc001_1
 
 >>> main(15, 10)
@@ -7,8 +7,7 @@ https://atcoder.jp/contests/abc001/tasks/abc001_1
 0
 >>> main(5, 20)
 -15
-
-'''
+"""
 
 
 def main(H1, H2):

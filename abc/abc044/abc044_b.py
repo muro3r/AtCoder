@@ -1,4 +1,4 @@
-'''B - 美しい文字列 / Beautiful Strings
+"""B - 美しい文字列 / Beautiful Strings
 https://atcoder.jp/contests/abc044/tasks/abc044_b
 w
 >>> main('abaccaba')
@@ -6,7 +6,7 @@ Yes
 >>> main('hthth')
 No
 
-'''
+"""
 
 
 def main(w):
@@ -16,10 +16,10 @@ def main(w):
 
     for x in w_sets:
         if w.count(x) % 2 != 0:
-            print('No')
+            print("No")
             return
 
-    print('Yes')
+    print("Yes")
 
 
 if __name__ == "__main__":

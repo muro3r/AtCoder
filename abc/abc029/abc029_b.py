@@ -1,4 +1,4 @@
-'''
+"""
 >>> main(['january','february','march','april','may','june','july','august',\
     'september','october','november','december'])
 8
@@ -16,14 +16,14 @@
       'ssrrrrrrrr']\
      )
 11
-'''
+"""
 
 
 def main(s):
     ans = 0
 
     for _s in s:
-        if 'r' in _s:
+        if "r" in _s:
             ans += 1
 
     print(ans)

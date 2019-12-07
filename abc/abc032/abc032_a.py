@@ -1,4 +1,4 @@
-'''A - 高橋君と青木君の好きな数
+"""A - 高橋君と青木君の好きな数
 https://atcoder.jp/contests/abc032/tasks/abc032_a
 
 >>> main(2, 3, 8)
@@ -10,7 +10,7 @@ https://atcoder.jp/contests/abc032/tasks/abc032_a
 
 >>> main(1, 100, 100)
 100
-'''
+"""
 
 
 def main(a, b, n):
