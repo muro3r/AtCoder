@@ -1,4 +1,4 @@
-'''
+"""
 B - AcCepted
 https://atcoder.jp/contests/abc104/tasks/abc104_b
 S
@@ -14,17 +14,17 @@ WA
 >>> main('Atcoder')
 WA
 
-'''
+"""
 
 import string
 
 
 def main(S):
-    if not S[0] == 'A' or S[1] == 'C':
-        print('WA')
+    if not S[0] == "A" or S[1] == "C":
+        print("WA")
         return
-    if S.endswith('C'):
-        print('WA')
+    if S.endswith("C"):
+        print("WA")
         return
 
     count_upper = 0
@@ -32,32 +32,32 @@ def main(S):
         count_upper += S.count(upper)
 
     if count_upper != 2:
-        print('WA')
+        print("WA")
         return
 
     count_C = 0
 
     for s in S[2:]:
-        if s == 'C':
+        if s == "C":
             if count_C == 1:
-                print('WA')
+                print("WA")
                 return
             else:
                 count_C += 1
                 continue
         elif not s.islower():
-            print('WA')
+            print("WA")
             return
 
     if count_C == 0:
-        print('WA')
+        print("WA")
         return
 
-    print('AC')
+    print("AC")
     return
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     S = input()
 
     print(main(S))

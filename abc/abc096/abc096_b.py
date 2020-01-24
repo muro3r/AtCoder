@@ -1,4 +1,4 @@
-'''B - Maximum Sum
+"""B - Maximum Sum
 https://atcoder.jp/contests/abc096/tasks/abc096_b
 
 >>> main(5, 3, 11, 1)
@@ -6,7 +6,7 @@ https://atcoder.jp/contests/abc096/tasks/abc096_b
 >>> main(3, 3, 4, 2)
 22
 
-'''
+"""
 
 
 def main(a, b, c, k):
@@ -18,7 +18,7 @@ def main(a, b, c, k):
 
 
 if __name__ == "__main__":
-    a, b, c = map(int, input().split(' '))
+    a, b, c = map(int, input().split(" "))
     k = int(input())
 
     main(a, b, c, k)

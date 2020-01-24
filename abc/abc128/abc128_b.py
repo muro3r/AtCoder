@@ -9,11 +9,11 @@ def main(list_, list_sortByScore):
 
 
 if __name__ == "__main__":
-    input_ = input().split('\n')
+    input_ = input().split("\n")
     N = int(input_[0])
     list_ = list()
 
     for i in range(1, N + 1):
-        city, score = input().split(' ')
+        city, score = input().split(" ")
 
         list_.append([city, int(score), i])

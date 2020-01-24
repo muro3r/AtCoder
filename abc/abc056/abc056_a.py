@@ -1,4 +1,4 @@
-'''A - HonestOrDishonest
+"""A - HonestOrDishonest
 https://atcoder.jp/contests/abc056/tasks/abc056_a
 
 >>> main('H', 'H')
@@ -8,14 +8,14 @@ D
 >>> main('D', 'D')
 H
 
-'''
+"""
 
 
 def main(a, b):
     if a == b:
-        print('H')
+        print("H")
     else:
-        print('D')
+        print("D")
 
 
 if __name__ == "__main__":

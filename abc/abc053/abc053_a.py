@@ -1,4 +1,4 @@
-'''A - ABC/ARC
+"""A - ABC/ARC
 https://atcoder.jp/contests/abc053/tasks/abc053_a
 x
 
@@ -7,14 +7,14 @@ ABC
 >>> main(2000)
 ARC
 
-'''
+"""
 
 
 def main(x):
     if x < 1200:
-        print('ABC')
+        print("ABC")
     else:
-        print('ARC')
+        print("ARC")
 
 
 if __name__ == "__main__":

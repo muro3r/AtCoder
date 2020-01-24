@@ -1,4 +1,4 @@
-'''A - Buttons
+"""A - Buttons
 https://atcoder.jp/contests/abc124/tasks/abc124_a
 
 >>> main(5,3)
@@ -6,7 +6,7 @@ https://atcoder.jp/contests/abc124/tasks/abc124_a
 >>> main(3,4)
 7
 >>> main(6,6)
-12'''
+12"""
 
 
 def main(a, b):
@@ -26,6 +26,6 @@ def main(a, b):
 
 
 if __name__ == "__main__":
-    a, b = map(int, input().split(' '))
+    a, b = map(int, input().split(" "))
 
     main(a, b)

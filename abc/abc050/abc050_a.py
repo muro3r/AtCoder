@@ -1,4 +1,4 @@
-'''A - Addition and Subtraction Easy
+"""A - Addition and Subtraction Easy
 https://atcoder.jp/contests/abc050/tasks/abc050_a
 
 >>> main('1 + 2')
@@ -6,7 +6,7 @@ https://atcoder.jp/contests/abc050/tasks/abc050_a
 
 >>> main('5 - 7')
 -2
-'''
+"""
 
 
 def main(A_op_B):

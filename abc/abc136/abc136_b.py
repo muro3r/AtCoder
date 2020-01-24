@@ -1,4 +1,4 @@
-'''B - Uneven Numbers
+"""B - Uneven Numbers
 https://atcoder.jp/contests/abc136/tasks/abc136_b
 
 >>> main(11)
@@ -7,7 +7,7 @@ https://atcoder.jp/contests/abc136/tasks/abc136_b
 46
 >>> main(100000)
 90909
-'''
+"""
 
 
 def main(n):

@@ -1,4 +1,4 @@
-'''B - Great Ocean View
+"""B - Great Ocean View
 https://atcoder.jp/contests/abc124/tasks/abc124_b
 
 >>> main(4, [6, 5, 6, 8])
@@ -7,7 +7,7 @@ https://atcoder.jp/contests/abc124/tasks/abc124_b
 3
 >>> main(5, [9, 5, 6, 8, 4])
 1
-'''
+"""
 
 
 def main(n, h):
@@ -24,6 +24,6 @@ def main(n, h):
 
 if __name__ == "__main__":
     n = int(input())
-    h = list(map(int, input().split(' ')))
+    h = list(map(int, input().split(" ")))
 
     main(n, h)

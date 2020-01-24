@@ -1,4 +1,4 @@
-'''A - Grouping
+"""A - Grouping
 https://atcoder.jp/contests/abc062/tasks/abc062_a
 
 >>> main(1, 3)
@@ -6,7 +6,7 @@ Yes
 >>> main(2, 4)
 No
 
-'''
+"""
 
 
 def main(x, y):
@@ -15,21 +15,21 @@ def main(x, y):
     group_c = [2]
 
     if (x in group_a) and (y in group_a):
-        print('Yes')
+        print("Yes")
         return
 
     elif (x in group_b) and (y in group_b):
-        print('Yes')
+        print("Yes")
         return
 
     elif (x in group_c) and (y in group_c):
-        print('Yes')
+        print("Yes")
         return
 
-    print('No')
+    print("No")
 
 
 if __name__ == "__main__":
-    x, y = map(int, input().split(' '))
+    x, y = map(int, input().split(" "))
 
     main(x, y)

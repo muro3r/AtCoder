@@ -1,4 +1,4 @@
-'''B - Time Limit Exceeded
+"""B - Time Limit Exceeded
 https://atcoder.jp/contests/abc112/tasks/abc112_b
 
 >>> main(3, 70, [[7, 60], [1, 80], [4, 50]])
@@ -11,7 +11,7 @@ TLE
 >>> main(1, 375, [[1000, 1]])
 1000
 
-'''
+"""
 
 
 def main(n, t, c_t):
@@ -23,16 +23,16 @@ def main(n, t, c_t):
                 cost = c
 
     if cost == 10000:
-        print('TLE')
+        print("TLE")
         return
 
     print(cost)
 
 
 if __name__ == "__main__":
-    n, t = map(int, input().split(' '))
+    n, t = map(int, input().split(" "))
     c_t = list()
     for _ in range(n):
-        c_t.append(map(int, input().split(' ')))
+        c_t.append(map(int, input().split(" ")))
 
     main(n, t, c_t)

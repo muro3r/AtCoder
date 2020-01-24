@@ -1,4 +1,4 @@
-'''A - B +/- A
+"""A - B +/- A
 https://atcoder.jp/contests/abc118/tasks/abc118_a
 
 >>> main(4, 12)
@@ -7,7 +7,7 @@ https://atcoder.jp/contests/abc118/tasks/abc118_a
 12
 >>> main(1, 1)
 2
-'''
+"""
 
 
 def main(a: int, b: int):
@@ -18,5 +18,5 @@ def main(a: int, b: int):
 
 
 if __name__ == "__main__":
-    a, b = map(int, input().split(' '))
+    a, b = map(int, input().split(" "))
     main(a, b)

@@ -1,4 +1,4 @@
-'''A - Fifty-Fifty
+"""A - Fifty-Fifty
 https://atcoder.jp/contests/abc132/tasks/abc132_a
 
 >>> main('ASSA')
@@ -16,16 +16,16 @@ No
 >>> main('JJKP')
 No
 
-'''
+"""
 
 
 def main(s):
     for _s in s:
         if s.count(_s) != 2:
-            print('No')
+            print("No")
             return
 
-    print('Yes')
+    print("Yes")
 
 
 if __name__ == "__main__":

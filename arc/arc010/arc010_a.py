@@ -1,4 +1,4 @@
-'''A - 名刺交換
+"""A - 名刺交換
 https://atcoder.jp/contests/arc010/tasks/arc010_1
 >>> main(100, 3, 0, 100, [10, 20, 30])
 complete
@@ -11,7 +11,7 @@ complete
 >>> main(5, 3, 20, 10, [15, 5, 20])
 3
 
-'''
+"""
 
 
 def main(n, m, a, b, c):
@@ -27,10 +27,10 @@ def main(n, m, a, b, c):
 
         remain -= day
 
-    print('complete')
+    print("complete")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n, m, a, b = map(int, input().split())
     c = [int(input()) for _ in range(m)]
 

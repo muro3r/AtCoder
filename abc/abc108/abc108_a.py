@@ -1,4 +1,4 @@
-'''A - Pair
+"""A - Pair
 https://atcoder.jp/contests/abc108/tasks/abc108_a
 
 >>> main(3)
@@ -8,7 +8,7 @@ https://atcoder.jp/contests/abc108/tasks/abc108_a
 >>> main(11)
 30
 >>> main(50)
-625'''
+625"""
 
 from itertools import permutations
 

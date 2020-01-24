@@ -1,4 +1,4 @@
-'''A - Multiple of 2 and N
+"""A - Multiple of 2 and N
 https://atcoder.jp/contests/abc102/tasks/abc102_a
 
 >>> main(3)
@@ -6,7 +6,7 @@ https://atcoder.jp/contests/abc102/tasks/abc102_a
 >>> main(10)
 10
 >>> main(999999999)
-1999999998'''
+1999999998"""
 
 
 def main(n):

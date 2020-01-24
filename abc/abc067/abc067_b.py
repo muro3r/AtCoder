@@ -1,4 +1,4 @@
-'''B - Snake Toy
+"""B - Snake Toy
 https://atcoder.jp/contests/abc067/tasks/abc067_b
 N K
 l_1 l_2 l_3 ... l_{N}
@@ -8,7 +8,7 @@ l_1 l_2 l_3 ... l_{N}
 >>> main(15, 14, [50, 26, 27, 21, 41, 7, 42, 35, 7, 5, 5, 36, 39, 1, 45])
 386
 
-'''
+"""
 
 
 def main(n: int, k: int, l: list):

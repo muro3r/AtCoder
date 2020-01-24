@@ -1,4 +1,4 @@
-'''B - Ordinary Number
+"""B - Ordinary Number
 https://atcoder.jp/contests/abc132/tasks/abc132_b
 
 >>> main(5, [1, 3, 5, 4, 2])
@@ -6,7 +6,7 @@ https://atcoder.jp/contests/abc132/tasks/abc132_b
 >>> main(9, [9, 6, 3, 2, 5, 8, 7, 4, 1])
 5
 
-'''
+"""
 
 
 def main(n, p):
@@ -21,8 +21,8 @@ def main(n, p):
     print(res)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
-    p = list(map(int, input().split(' ')))
+    p = list(map(int, input().split(" ")))
 
     main(n, p)

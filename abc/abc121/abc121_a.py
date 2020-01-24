@@ -1,4 +1,4 @@
-'''A - White Cells
+"""A - White Cells
 https://atcoder.jp/contests/abc121/tasks/abc121_a
 
 >>> main([3, 2], [2, 1])
@@ -6,7 +6,7 @@ https://atcoder.jp/contests/abc121/tasks/abc121_a
 >>> main([5, 5], [2, 3])
 6
 >>> main([2, 4], [2, 4])
-0'''
+0"""
 
 
 def main(amount, portion):
@@ -14,7 +14,7 @@ def main(amount, portion):
 
 
 if __name__ == "__main__":
-    amount = list(map(int, input().split(' ')))
-    portion = list(map(int, input().split(' ')))
+    amount = list(map(int, input().split(" ")))
+    portion = list(map(int, input().split(" ")))
 
     main(amount, portion)

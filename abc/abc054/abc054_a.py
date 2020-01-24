@@ -1,4 +1,4 @@
-'''
+"""
 A - One Card Poker
 https://atcoder.jp/contests/abc054/tasks/abc054_a
 
@@ -10,12 +10,12 @@ Draw
 
 >>> main(13, 1)
 Bob
-'''
+"""
 
 
 def main(a, b):
     def re_define(input_):
-        '''強さ順にする'''
+        """強さ順にする"""
         if input_ == 1:
             return 13
 
@@ -25,14 +25,14 @@ def main(a, b):
     b = re_define(b)
 
     if a > b:
-        print('Alice')
+        print("Alice")
     elif a < b:
-        print('Bob')
+        print("Bob")
     else:
-        print('Draw')
+        print("Draw")
 
 
 if __name__ == "__main__":
-    a, b = map(int, input().split(' '))
+    a, b = map(int, input().split(" "))
 
     main(a, b)

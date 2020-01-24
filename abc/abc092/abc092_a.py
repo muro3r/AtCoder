@@ -1,4 +1,4 @@
-'''A - Traveling Budget
+"""A - Traveling Budget
 https://atcoder.jp/contests/abc092/tasks/abc092_a
 
 >>> main(600, 300, 220, 420)
@@ -8,7 +8,7 @@ https://atcoder.jp/contests/abc092/tasks/abc092_a
 >>> main(549, 817, 715, 603)
 1152
 
-'''
+"""
 
 
 def main(A: int, B: int, C: int, D: int):
@@ -26,7 +26,7 @@ def main(A: int, B: int, C: int, D: int):
     return train + bus
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     A = int(input())
     B = int(input())
     C = int(input())

@@ -1,5 +1,4 @@
-
-'''A - Five Antennas
+"""A - Five Antennas
 https://atcoder.jp/contests/abc123/tasks/abc123_a
 
 >>> main([1, 2, 4, 8, 9], 15)
@@ -9,7 +8,7 @@ Yay!
 
 in1.txt
 >>> main([0, 7, 9, 52, 123], 123)
-Yay!'''
+Yay!"""
 
 from itertools import permutations
 
@@ -17,10 +16,10 @@ from itertools import permutations
 def main(_input, k):
     for p in permutations(_input, 2):
         if p[0] - p[1] > k:
-            print(':(')
+            print(":(")
             return
 
-    print('Yay!')
+    print("Yay!")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-'''B - Good Distance
+"""B - Good Distance
 https://atcoder.jp/contests/abc133/tasks/abc133_b
 
 >>> main(3, 2, [[1, 2], [5, 5], [-2, 8]])
@@ -8,7 +8,7 @@ https://atcoder.jp/contests/abc133/tasks/abc133_b
 >>> main(5, 1, [[1], [2], [3], [4], [5]])
 10
 
-'''
+"""
 
 from math import sqrt
 from itertools import combinations
@@ -19,7 +19,7 @@ def main(n, d, x):
     for a, b in combinations(x, 2):
         r = 0
         for c, d in zip(a, b):
-            r += abs(c - d)**2
+            r += abs(c - d) ** 2
 
         if sqrt(r).is_integer():
             ans += 1
@@ -27,7 +27,7 @@ def main(n, d, x):
     print(ans)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n, d = map(int, input().split())
     x = [list(map(int, input().split())) for _ in range(n)]
 

@@ -1,4 +1,4 @@
-'''A - Curtain
+"""A - Curtain
 https://atcoder.jp/contests/abc143/tasks/abc143_a
 
 >>> main(12, 4)
@@ -8,7 +8,7 @@ https://atcoder.jp/contests/abc143/tasks/abc143_a
 >>> main(20, 30)
 0
 
-'''
+"""
 
 
 def main(a, b):
@@ -16,5 +16,5 @@ def main(a, b):
 
 
 if __name__ == "__main__":
-    a, b = map(int, input().split(' '))
+    a, b = map(int, input().split(" "))
     main(a, b)

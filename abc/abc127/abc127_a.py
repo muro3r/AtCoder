@@ -1,4 +1,4 @@
-'''A - Ferris Wheel
+"""A - Ferris Wheel
 https://atcoder.jp/contests/abc127/tasks/abc127_a
 A B
 
@@ -9,7 +9,7 @@ A B
 >>> main(0, 100)
 0
 
-'''
+"""
 
 
 def main(A, B):
@@ -22,6 +22,6 @@ def main(A, B):
 
 
 if __name__ == "__main__":
-    A, B = map(int, input().split(' '))
+    A, B = map(int, input().split(" "))
 
     main(A, B)

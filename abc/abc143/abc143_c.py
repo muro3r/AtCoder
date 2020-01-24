@@ -1,4 +1,4 @@
-'''C - Slimes
+"""C - Slimes
 https://atcoder.jp/contests/abc143/tasks/abc143_c
 
 >>> main(10, 'aabbbbaaca')
@@ -8,12 +8,12 @@ https://atcoder.jp/contests/abc143/tasks/abc143_c
 >>> main(20, 'xxzaffeeeeddfkkkkllq')
 10
 
-'''
+"""
 
 
 def main(n, s):
     i = 0
-    tmp = ''
+    tmp = ""
 
     for s in s:
         if s != tmp:

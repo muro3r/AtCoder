@@ -1,4 +1,4 @@
-'''A - Apple Pie
+"""A - Apple Pie
 https://atcoder.jp/contests/abc128/tasks/abc128_a
 A P
 
@@ -9,7 +9,7 @@ A P
 >>> main(32, 21)
 58
 
-'''
+"""
 
 
 def main(A, P):
@@ -19,6 +19,6 @@ def main(A, P):
 
 
 if __name__ == "__main__":
-    A, P = map(int, input().split(' '))
+    A, P = map(int, input().split(" "))
 
     main(A, P)

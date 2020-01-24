@@ -1,4 +1,4 @@
-'''A - Restaurant
+"""A - Restaurant
 https://atcoder.jp/contests/abc055/tasks/abc055_a
 
 >>> main(20)
@@ -6,7 +6,7 @@ https://atcoder.jp/contests/abc055/tasks/abc055_a
 >>> main(60)
 47200
 
-'''
+"""
 
 
 def main(n):

@@ -1,4 +1,4 @@
-'''B - Picture Frame
+"""B - Picture Frame
 
 >>> main(2, 3,  ['abc', 'arc'])
 #####
@@ -10,20 +10,20 @@
 ###
 #z#
 ###
-'''
+"""
 
 
 def main(h, w, a):
-    print('#' * (w + 2))
+    print("#" * (w + 2))
 
     for s in a:
-        print('#{}#'.format(s))
+        print("#{}#".format(s))
 
-    print('#' * (w + 2))
+    print("#" * (w + 2))
 
 
-if __name__ == '__main__':
-    h, w = map(int, input().split(' '))
+if __name__ == "__main__":
+    h, w = map(int, input().split(" "))
     a = []
 
     for _ in range(h):

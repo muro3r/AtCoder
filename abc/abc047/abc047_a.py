@@ -1,4 +1,4 @@
-'''
+"""
 >>> main(10, 30, 20)
 Yes
 >>> main(30, 30, 100)
@@ -6,21 +6,21 @@ No
 >>> main(56, 25, 31)
 Yes
 
-'''
+"""
 
 
 def main(a, b, c):
     if a + b == c:
-        print('Yes')
+        print("Yes")
         return
     elif a + c == b:
-        print('Yes')
+        print("Yes")
         return
     elif b + c == a:
-        print('Yes')
+        print("Yes")
         return
     else:
-        print('No')
+        print("No")
         return
 
 

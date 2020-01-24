@@ -1,4 +1,4 @@
-'''B - Digit Sums
+"""B - Digit Sums
 https://atcoder.jp/contests/abc101/tasks/abc101_b
 N
 
@@ -9,7 +9,7 @@ No
 >>> main(999999999)
 Yes
 
-'''
+"""
 
 
 def main(N):
@@ -19,12 +19,12 @@ def main(N):
         i += int(s)
 
     if N % i == 0:
-        print('Yes')
+        print("Yes")
     else:
-        print('No')
+        print("No")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N = int(input())
 
     main(N)

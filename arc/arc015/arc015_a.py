@@ -1,4 +1,4 @@
-'''A - Celsius と Fahrenheit
+"""A - Celsius と Fahrenheit
 https://atcoder.jp/contests/arc015/tasks/arc015_1
 
 >>> main(10)
@@ -8,7 +8,7 @@ https://atcoder.jp/contests/arc015/tasks/arc015_1
 >>> main(-100)
 -148
 
-'''
+"""
 
 
 def main(n):
@@ -19,7 +19,7 @@ def main(n):
         print(f)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
 
     main(n)

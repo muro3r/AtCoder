@@ -1,4 +1,4 @@
-'''A - Haiku
+"""A - Haiku
 https://atcoder.jp/contests/abc051/tasks/abc051_a
 
 >>> main('happy,newyear,enjoy')
@@ -7,11 +7,11 @@ happy newyear enjoy
 haiku atcoder tasks
 >>> main('abcde,fghihgf,edcba')
 abcde fghihgf edcba
-'''
+"""
 
 
 def main(s):
-    print(s.replace(',', ' '))
+    print(s.replace(",", " "))
 
 
 if __name__ == "__main__":

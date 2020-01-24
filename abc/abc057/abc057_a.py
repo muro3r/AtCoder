@@ -1,4 +1,4 @@
-'''A - Remaining Time
+"""A - Remaining Time
 https://atcoder.jp/contests/abc057/tasks/abc057_a
 
 >>> main(9, 12)
@@ -8,7 +8,7 @@ https://atcoder.jp/contests/abc057/tasks/abc057_a
 >>> main(23, 2)
 1
 
-'''
+"""
 
 
 def main(a, b):
@@ -16,6 +16,6 @@ def main(a, b):
 
 
 if __name__ == "__main__":
-    a, b = map(int, input().split(' '))
+    a, b = map(int, input().split(" "))
 
     main(a, b)

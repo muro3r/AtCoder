@@ -1,4 +1,4 @@
-'''A - Colorful Transceivers
+"""A - Colorful Transceivers
 https://atcoder.jp/contests/abc097/tasks/abc097_a
 
 >>> main(4, 7, 9 ,3)
@@ -9,17 +9,17 @@ No
 Yes
 >>> main(1, 100, 2, 10)
 Yes
-'''
+"""
 
 
 def main(a, b, c, d):
     if abs(a - c) <= d or abs(a - b) <= d and abs(b - c) <= d:
-        print('Yes')
+        print("Yes")
     else:
-        print('No')
+        print("No")
 
 
 if __name__ == "__main__":
-    a, b, c, d = map(int, input().split(' '))
+    a, b, c, d = map(int, input().split(" "))
 
     main(a, b, c, d)

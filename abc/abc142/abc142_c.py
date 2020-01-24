@@ -1,4 +1,4 @@
-'''
+"""
 C - Go to School
 https://atcoder.jp/contests/abc142/tasks/abc142_c
 
@@ -10,7 +10,7 @@ https://atcoder.jp/contests/abc142/tasks/abc142_c
 
 >>> main(8, [8, 2, 7, 3, 4, 5, 6, 1])
 8 2 4 5 6 7 3 1
-'''
+"""
 
 
 def main(n, a):
@@ -21,11 +21,11 @@ def main(n, a):
         ls[i - 1] = count
         count += 1
 
-    print(' '.join(map(str, ls)))
+    print(" ".join(map(str, ls)))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
-    a = map(int, input().split(' '))
+    a = map(int, input().split(" "))
 
     main(n, a)

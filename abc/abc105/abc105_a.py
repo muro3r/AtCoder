@@ -1,4 +1,4 @@
-'''A - AtCoder Crackers
+"""A - AtCoder Crackers
 https://atcoder.jp/contests/abc105/tasks/abc105_a
 
 >>> main(7, 3)
@@ -9,7 +9,7 @@ https://atcoder.jp/contests/abc105/tasks/abc105_a
 0
 
 >> main(78, 25)
-1'''
+1"""
 
 
 def main(n, k):
@@ -20,5 +20,5 @@ def main(n, k):
 
 
 if __name__ == "__main__":
-    n, k = map(int, input().split(' '))
+    n, k = map(int, input().split(" "))
     main(n, k)

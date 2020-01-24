@@ -1,4 +1,4 @@
-'''A - Two Rectangles
+"""A - Two Rectangles
 https://atcoder.jp/contests/abc052/tasks/abc052_a
 
 >>> main(3, 5, 2, 7)
@@ -7,7 +7,7 @@ https://atcoder.jp/contests/abc052/tasks/abc052_a
 >>> main(100, 600, 200, 300)
 60000
 
-'''
+"""
 
 
 def main(a, b, c, d):
@@ -21,6 +21,6 @@ def main(a, b, c, d):
 
 
 if __name__ == "__main__":
-    a, b, c, d = map(int, input().split(' '))
+    a, b, c, d = map(int, input().split(" "))
 
     main(a, b, c, d)

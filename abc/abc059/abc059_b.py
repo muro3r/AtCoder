@@ -1,4 +1,4 @@
-'''B - Comparison
+"""B - Comparison
 https://atcoder.jp/contests/abc059/tasks/abc059_b
 
 >>> main(36, 24)
@@ -8,19 +8,19 @@ LESS
 >>> main(9720246, 22516266)
 LESS
 
-'''
+"""
 
 
 def main(a, b):
     if a > b:
-        print('GREATER')
+        print("GREATER")
     elif a < b:
-        print('LESS')
+        print("LESS")
     else:
-        print('EQUAL')
+        print("EQUAL")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     a = int(input())
     b = int(input())
 
