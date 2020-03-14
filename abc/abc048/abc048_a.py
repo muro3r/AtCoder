@@ -1,12 +1,12 @@
 """A - AtCoder *** Contest
 https://atcoder.jp/contests/abc048/tasks/abc048_a
+
 >>> main('AtCoder', 'Beginner', 'Contest')
 ABC
 >>> main('AtCoder', 'Snuke', 'Contest')
 ASC
 >>> main('AtCoder', 'X', 'Contest')
 AXC
-
 """
 
 
